@@ -1,0 +1,1 @@
+import{a4 as u,u as i,a5 as a}from"./CFhrp1Et.js";const r=u(t=>{const e=i();if(e.isAuthenticated&&t.name==="auth")return a("/");if(!e.isAuthenticated&&t.name!=="auth")return a("/auth")});export{r as default};
